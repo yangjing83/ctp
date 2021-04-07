@@ -43,12 +43,12 @@ public class CThostFtdcDepthMarketDataField {
     return ThostTradeApiJNI.CThostFtdcDepthMarketDataField_TradingDay_get(swigCPtr, this);
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcDepthMarketDataField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcDepthMarketDataField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcDepthMarketDataField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcDepthMarketDataField_reserve1_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
@@ -59,12 +59,12 @@ public class CThostFtdcDepthMarketDataField {
     return ThostTradeApiJNI.CThostFtdcDepthMarketDataField_ExchangeID_get(swigCPtr, this);
   }
 
-  public void setExchangeInstID(String value) {
-    ThostTradeApiJNI.CThostFtdcDepthMarketDataField_ExchangeInstID_set(swigCPtr, this, value);
+  public void setReserve2(String value) {
+    ThostTradeApiJNI.CThostFtdcDepthMarketDataField_reserve2_set(swigCPtr, this, value);
   }
 
-  public String getExchangeInstID() {
-    return ThostTradeApiJNI.CThostFtdcDepthMarketDataField_ExchangeInstID_get(swigCPtr, this);
+  public String getReserve2() {
+    return ThostTradeApiJNI.CThostFtdcDepthMarketDataField_reserve2_get(swigCPtr, this);
   }
 
   public void setLastPrice(double value) {
@@ -385,6 +385,22 @@ public class CThostFtdcDepthMarketDataField {
 
   public String getActionDay() {
     return ThostTradeApiJNI.CThostFtdcDepthMarketDataField_ActionDay_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcDepthMarketDataField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcDepthMarketDataField_InstrumentID_get(swigCPtr, this);
+  }
+
+  public void setExchangeInstID(String value) {
+    ThostTradeApiJNI.CThostFtdcDepthMarketDataField_ExchangeInstID_set(swigCPtr, this, value);
+  }
+
+  public String getExchangeInstID() {
+    return ThostTradeApiJNI.CThostFtdcDepthMarketDataField_ExchangeInstID_get(swigCPtr, this);
   }
 
   public CThostFtdcDepthMarketDataField() {

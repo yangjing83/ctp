@@ -171,12 +171,12 @@ public class CThostFtdcExchangeOrderActionField {
     return ThostTradeApiJNI.CThostFtdcExchangeOrderActionField_BranchID_get(swigCPtr, this);
   }
 
-  public void setIPAddress(String value) {
-    ThostTradeApiJNI.CThostFtdcExchangeOrderActionField_IPAddress_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcExchangeOrderActionField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getIPAddress() {
-    return ThostTradeApiJNI.CThostFtdcExchangeOrderActionField_IPAddress_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcExchangeOrderActionField_reserve1_get(swigCPtr, this);
   }
 
   public void setMacAddress(String value) {
@@ -185,6 +185,14 @@ public class CThostFtdcExchangeOrderActionField {
 
   public String getMacAddress() {
     return ThostTradeApiJNI.CThostFtdcExchangeOrderActionField_MacAddress_get(swigCPtr, this);
+  }
+
+  public void setIPAddress(String value) {
+    ThostTradeApiJNI.CThostFtdcExchangeOrderActionField_IPAddress_set(swigCPtr, this, value);
+  }
+
+  public String getIPAddress() {
+    return ThostTradeApiJNI.CThostFtdcExchangeOrderActionField_IPAddress_get(swigCPtr, this);
   }
 
   public CThostFtdcExchangeOrderActionField() {

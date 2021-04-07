@@ -35,12 +35,12 @@ public class CThostFtdcQryInstrumentField {
     }
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcQryInstrumentField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcQryInstrumentField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcQryInstrumentField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcQryInstrumentField_reserve1_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
@@ -49,6 +49,30 @@ public class CThostFtdcQryInstrumentField {
 
   public String getExchangeID() {
     return ThostTradeApiJNI.CThostFtdcQryInstrumentField_ExchangeID_get(swigCPtr, this);
+  }
+
+  public void setReserve2(String value) {
+    ThostTradeApiJNI.CThostFtdcQryInstrumentField_reserve2_set(swigCPtr, this, value);
+  }
+
+  public String getReserve2() {
+    return ThostTradeApiJNI.CThostFtdcQryInstrumentField_reserve2_get(swigCPtr, this);
+  }
+
+  public void setReserve3(String value) {
+    ThostTradeApiJNI.CThostFtdcQryInstrumentField_reserve3_set(swigCPtr, this, value);
+  }
+
+  public String getReserve3() {
+    return ThostTradeApiJNI.CThostFtdcQryInstrumentField_reserve3_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcQryInstrumentField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcQryInstrumentField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setExchangeInstID(String value) {

@@ -51,12 +51,12 @@ public class CThostFtdcQryExchangeCombActionField {
     return ThostTradeApiJNI.CThostFtdcQryExchangeCombActionField_ClientID_get(swigCPtr, this);
   }
 
-  public void setExchangeInstID(String value) {
-    ThostTradeApiJNI.CThostFtdcQryExchangeCombActionField_ExchangeInstID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcQryExchangeCombActionField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getExchangeInstID() {
-    return ThostTradeApiJNI.CThostFtdcQryExchangeCombActionField_ExchangeInstID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcQryExchangeCombActionField_reserve1_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
@@ -73,6 +73,14 @@ public class CThostFtdcQryExchangeCombActionField {
 
   public String getTraderID() {
     return ThostTradeApiJNI.CThostFtdcQryExchangeCombActionField_TraderID_get(swigCPtr, this);
+  }
+
+  public void setExchangeInstID(String value) {
+    ThostTradeApiJNI.CThostFtdcQryExchangeCombActionField_ExchangeInstID_set(swigCPtr, this, value);
+  }
+
+  public String getExchangeInstID() {
+    return ThostTradeApiJNI.CThostFtdcQryExchangeCombActionField_ExchangeInstID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryExchangeCombActionField() {

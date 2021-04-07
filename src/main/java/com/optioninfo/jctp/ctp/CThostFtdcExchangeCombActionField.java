@@ -99,12 +99,12 @@ public class CThostFtdcExchangeCombActionField {
     return ThostTradeApiJNI.CThostFtdcExchangeCombActionField_ClientID_get(swigCPtr, this);
   }
 
-  public void setExchangeInstID(String value) {
-    ThostTradeApiJNI.CThostFtdcExchangeCombActionField_ExchangeInstID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcExchangeCombActionField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getExchangeInstID() {
-    return ThostTradeApiJNI.CThostFtdcExchangeCombActionField_ExchangeInstID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcExchangeCombActionField_reserve1_get(swigCPtr, this);
   }
 
   public void setTraderID(String value) {
@@ -163,12 +163,12 @@ public class CThostFtdcExchangeCombActionField {
     return ThostTradeApiJNI.CThostFtdcExchangeCombActionField_SequenceNo_get(swigCPtr, this);
   }
 
-  public void setIPAddress(String value) {
-    ThostTradeApiJNI.CThostFtdcExchangeCombActionField_IPAddress_set(swigCPtr, this, value);
+  public void setReserve2(String value) {
+    ThostTradeApiJNI.CThostFtdcExchangeCombActionField_reserve2_set(swigCPtr, this, value);
   }
 
-  public String getIPAddress() {
-    return ThostTradeApiJNI.CThostFtdcExchangeCombActionField_IPAddress_get(swigCPtr, this);
+  public String getReserve2() {
+    return ThostTradeApiJNI.CThostFtdcExchangeCombActionField_reserve2_get(swigCPtr, this);
   }
 
   public void setMacAddress(String value) {
@@ -193,6 +193,22 @@ public class CThostFtdcExchangeCombActionField {
 
   public String getBranchID() {
     return ThostTradeApiJNI.CThostFtdcExchangeCombActionField_BranchID_get(swigCPtr, this);
+  }
+
+  public void setExchangeInstID(String value) {
+    ThostTradeApiJNI.CThostFtdcExchangeCombActionField_ExchangeInstID_set(swigCPtr, this, value);
+  }
+
+  public String getExchangeInstID() {
+    return ThostTradeApiJNI.CThostFtdcExchangeCombActionField_ExchangeInstID_get(swigCPtr, this);
+  }
+
+  public void setIPAddress(String value) {
+    ThostTradeApiJNI.CThostFtdcExchangeCombActionField_IPAddress_set(swigCPtr, this, value);
+  }
+
+  public String getIPAddress() {
+    return ThostTradeApiJNI.CThostFtdcExchangeCombActionField_IPAddress_get(swigCPtr, this);
   }
 
   public CThostFtdcExchangeCombActionField() {

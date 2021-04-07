@@ -110,8 +110,8 @@ public class CThostFtdcTraderSpi {
     if (getClass() == CThostFtdcTraderSpi.class) ThostTradeApiJNI.CThostFtdcTraderSpi_OnRspOrderAction(swigCPtr, this, CThostFtdcInputOrderActionField.getCPtr(pInputOrderAction), pInputOrderAction, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast); else ThostTradeApiJNI.CThostFtdcTraderSpi_OnRspOrderActionSwigExplicitCThostFtdcTraderSpi(swigCPtr, this, CThostFtdcInputOrderActionField.getCPtr(pInputOrderAction), pInputOrderAction, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
   }
 
-  public void OnRspQueryMaxOrderVolume(CThostFtdcQueryMaxOrderVolumeField pQueryMaxOrderVolume, CThostFtdcRspInfoField pRspInfo, int nRequestID, boolean bIsLast) {
-    if (getClass() == CThostFtdcTraderSpi.class) ThostTradeApiJNI.CThostFtdcTraderSpi_OnRspQueryMaxOrderVolume(swigCPtr, this, CThostFtdcQueryMaxOrderVolumeField.getCPtr(pQueryMaxOrderVolume), pQueryMaxOrderVolume, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast); else ThostTradeApiJNI.CThostFtdcTraderSpi_OnRspQueryMaxOrderVolumeSwigExplicitCThostFtdcTraderSpi(swigCPtr, this, CThostFtdcQueryMaxOrderVolumeField.getCPtr(pQueryMaxOrderVolume), pQueryMaxOrderVolume, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
+  public void OnRspQryMaxOrderVolume(CThostFtdcQryMaxOrderVolumeField pQryMaxOrderVolume, CThostFtdcRspInfoField pRspInfo, int nRequestID, boolean bIsLast) {
+    if (getClass() == CThostFtdcTraderSpi.class) ThostTradeApiJNI.CThostFtdcTraderSpi_OnRspQryMaxOrderVolume(swigCPtr, this, CThostFtdcQryMaxOrderVolumeField.getCPtr(pQryMaxOrderVolume), pQryMaxOrderVolume, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast); else ThostTradeApiJNI.CThostFtdcTraderSpi_OnRspQryMaxOrderVolumeSwigExplicitCThostFtdcTraderSpi(swigCPtr, this, CThostFtdcQryMaxOrderVolumeField.getCPtr(pQryMaxOrderVolume), pQryMaxOrderVolume, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
   }
 
   public void OnRspSettlementInfoConfirm(CThostFtdcSettlementInfoConfirmField pSettlementInfoConfirm, CThostFtdcRspInfoField pRspInfo, int nRequestID, boolean bIsLast) {
@@ -548,6 +548,14 @@ public class CThostFtdcTraderSpi {
 
   public void OnRtnChangeAccountByBank(CThostFtdcChangeAccountField pChangeAccount) {
     if (getClass() == CThostFtdcTraderSpi.class) ThostTradeApiJNI.CThostFtdcTraderSpi_OnRtnChangeAccountByBank(swigCPtr, this, CThostFtdcChangeAccountField.getCPtr(pChangeAccount), pChangeAccount); else ThostTradeApiJNI.CThostFtdcTraderSpi_OnRtnChangeAccountByBankSwigExplicitCThostFtdcTraderSpi(swigCPtr, this, CThostFtdcChangeAccountField.getCPtr(pChangeAccount), pChangeAccount);
+  }
+
+  public void OnRspQryClassifiedInstrument(CThostFtdcInstrumentField pInstrument, CThostFtdcRspInfoField pRspInfo, int nRequestID, boolean bIsLast) {
+    if (getClass() == CThostFtdcTraderSpi.class) ThostTradeApiJNI.CThostFtdcTraderSpi_OnRspQryClassifiedInstrument(swigCPtr, this, CThostFtdcInstrumentField.getCPtr(pInstrument), pInstrument, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast); else ThostTradeApiJNI.CThostFtdcTraderSpi_OnRspQryClassifiedInstrumentSwigExplicitCThostFtdcTraderSpi(swigCPtr, this, CThostFtdcInstrumentField.getCPtr(pInstrument), pInstrument, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
+  }
+
+  public void OnRspQryCombPromotionParam(CThostFtdcCombPromotionParamField pCombPromotionParam, CThostFtdcRspInfoField pRspInfo, int nRequestID, boolean bIsLast) {
+    if (getClass() == CThostFtdcTraderSpi.class) ThostTradeApiJNI.CThostFtdcTraderSpi_OnRspQryCombPromotionParam(swigCPtr, this, CThostFtdcCombPromotionParamField.getCPtr(pCombPromotionParam), pCombPromotionParam, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast); else ThostTradeApiJNI.CThostFtdcTraderSpi_OnRspQryCombPromotionParamSwigExplicitCThostFtdcTraderSpi(swigCPtr, this, CThostFtdcCombPromotionParamField.getCPtr(pCombPromotionParam), pCombPromotionParam, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
   }
 
   public CThostFtdcTraderSpi() {

@@ -51,12 +51,12 @@ public class CThostFtdcQryOptionInstrTradeCostField {
     return ThostTradeApiJNI.CThostFtdcQryOptionInstrTradeCostField_InvestorID_get(swigCPtr, this);
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcQryOptionInstrTradeCostField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcQryOptionInstrTradeCostField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcQryOptionInstrTradeCostField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcQryOptionInstrTradeCostField_reserve1_get(swigCPtr, this);
   }
 
   public void setHedgeFlag(char value) {
@@ -97,6 +97,14 @@ public class CThostFtdcQryOptionInstrTradeCostField {
 
   public String getInvestUnitID() {
     return ThostTradeApiJNI.CThostFtdcQryOptionInstrTradeCostField_InvestUnitID_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcQryOptionInstrTradeCostField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcQryOptionInstrTradeCostField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryOptionInstrTradeCostField() {

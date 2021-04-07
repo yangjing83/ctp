@@ -35,6 +35,14 @@ public class CThostFtdcQryIPListField {
     }
   }
 
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcQryIPListField_reserve1_set(swigCPtr, this, value);
+  }
+
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcQryIPListField_reserve1_get(swigCPtr, this);
+  }
+
   public void setIPAddress(String value) {
     ThostTradeApiJNI.CThostFtdcQryIPListField_IPAddress_set(swigCPtr, this, value);
   }

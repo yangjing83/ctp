@@ -35,12 +35,12 @@ public class CThostFtdcInstrumentOrderCommRateField {
     }
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcInstrumentOrderCommRateField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcInstrumentOrderCommRateField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcInstrumentOrderCommRateField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcInstrumentOrderCommRateField_reserve1_get(swigCPtr, this);
   }
 
   public void setInvestorRange(char value) {
@@ -105,6 +105,14 @@ public class CThostFtdcInstrumentOrderCommRateField {
 
   public String getInvestUnitID() {
     return ThostTradeApiJNI.CThostFtdcInstrumentOrderCommRateField_InvestUnitID_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcInstrumentOrderCommRateField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcInstrumentOrderCommRateField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcInstrumentOrderCommRateField() {

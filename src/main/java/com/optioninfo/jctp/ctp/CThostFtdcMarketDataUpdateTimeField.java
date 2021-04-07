@@ -35,12 +35,12 @@ public class CThostFtdcMarketDataUpdateTimeField {
     }
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcMarketDataUpdateTimeField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcMarketDataUpdateTimeField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcMarketDataUpdateTimeField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcMarketDataUpdateTimeField_reserve1_get(swigCPtr, this);
   }
 
   public void setUpdateTime(String value) {
@@ -65,6 +65,14 @@ public class CThostFtdcMarketDataUpdateTimeField {
 
   public String getActionDay() {
     return ThostTradeApiJNI.CThostFtdcMarketDataUpdateTimeField_ActionDay_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcMarketDataUpdateTimeField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcMarketDataUpdateTimeField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcMarketDataUpdateTimeField() {

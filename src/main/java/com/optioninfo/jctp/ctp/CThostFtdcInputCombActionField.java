@@ -51,12 +51,12 @@ public class CThostFtdcInputCombActionField {
     return ThostTradeApiJNI.CThostFtdcInputCombActionField_InvestorID_get(swigCPtr, this);
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcInputCombActionField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcInputCombActionField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcInputCombActionField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcInputCombActionField_reserve1_get(swigCPtr, this);
   }
 
   public void setCombActionRef(String value) {
@@ -115,12 +115,12 @@ public class CThostFtdcInputCombActionField {
     return ThostTradeApiJNI.CThostFtdcInputCombActionField_ExchangeID_get(swigCPtr, this);
   }
 
-  public void setIPAddress(String value) {
-    ThostTradeApiJNI.CThostFtdcInputCombActionField_IPAddress_set(swigCPtr, this, value);
+  public void setReserve2(String value) {
+    ThostTradeApiJNI.CThostFtdcInputCombActionField_reserve2_set(swigCPtr, this, value);
   }
 
-  public String getIPAddress() {
-    return ThostTradeApiJNI.CThostFtdcInputCombActionField_IPAddress_get(swigCPtr, this);
+  public String getReserve2() {
+    return ThostTradeApiJNI.CThostFtdcInputCombActionField_reserve2_get(swigCPtr, this);
   }
 
   public void setMacAddress(String value) {
@@ -153,6 +153,22 @@ public class CThostFtdcInputCombActionField {
 
   public int getSessionID() {
     return ThostTradeApiJNI.CThostFtdcInputCombActionField_SessionID_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcInputCombActionField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcInputCombActionField_InstrumentID_get(swigCPtr, this);
+  }
+
+  public void setIPAddress(String value) {
+    ThostTradeApiJNI.CThostFtdcInputCombActionField_IPAddress_set(swigCPtr, this, value);
+  }
+
+  public String getIPAddress() {
+    return ThostTradeApiJNI.CThostFtdcInputCombActionField_IPAddress_get(swigCPtr, this);
   }
 
   public CThostFtdcInputCombActionField() {

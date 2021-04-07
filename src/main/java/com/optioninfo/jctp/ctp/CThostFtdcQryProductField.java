@@ -35,12 +35,12 @@ public class CThostFtdcQryProductField {
     }
   }
 
-  public void setProductID(String value) {
-    ThostTradeApiJNI.CThostFtdcQryProductField_ProductID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcQryProductField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getProductID() {
-    return ThostTradeApiJNI.CThostFtdcQryProductField_ProductID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcQryProductField_reserve1_get(swigCPtr, this);
   }
 
   public void setProductClass(char value) {
@@ -57,6 +57,14 @@ public class CThostFtdcQryProductField {
 
   public String getExchangeID() {
     return ThostTradeApiJNI.CThostFtdcQryProductField_ExchangeID_get(swigCPtr, this);
+  }
+
+  public void setProductID(String value) {
+    ThostTradeApiJNI.CThostFtdcQryProductField_ProductID_set(swigCPtr, this, value);
+  }
+
+  public String getProductID() {
+    return ThostTradeApiJNI.CThostFtdcQryProductField_ProductID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryProductField() {

@@ -35,12 +35,12 @@ public class CThostFtdcIPListField {
     }
   }
 
-  public void setIPAddress(String value) {
-    ThostTradeApiJNI.CThostFtdcIPListField_IPAddress_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcIPListField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getIPAddress() {
-    return ThostTradeApiJNI.CThostFtdcIPListField_IPAddress_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcIPListField_reserve1_get(swigCPtr, this);
   }
 
   public void setIsWhite(int value) {
@@ -49,6 +49,14 @@ public class CThostFtdcIPListField {
 
   public int getIsWhite() {
     return ThostTradeApiJNI.CThostFtdcIPListField_IsWhite_get(swigCPtr, this);
+  }
+
+  public void setIPAddress(String value) {
+    ThostTradeApiJNI.CThostFtdcIPListField_IPAddress_set(swigCPtr, this, value);
+  }
+
+  public String getIPAddress() {
+    return ThostTradeApiJNI.CThostFtdcIPListField_IPAddress_get(swigCPtr, this);
   }
 
   public CThostFtdcIPListField() {

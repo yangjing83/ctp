@@ -35,12 +35,12 @@ public class CThostFtdcInvestorProductGroupMarginField {
     }
   }
 
-  public void setProductGroupID(String value) {
-    ThostTradeApiJNI.CThostFtdcInvestorProductGroupMarginField_ProductGroupID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcInvestorProductGroupMarginField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getProductGroupID() {
-    return ThostTradeApiJNI.CThostFtdcInvestorProductGroupMarginField_ProductGroupID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcInvestorProductGroupMarginField_reserve1_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
@@ -265,6 +265,14 @@ public class CThostFtdcInvestorProductGroupMarginField {
 
   public String getInvestUnitID() {
     return ThostTradeApiJNI.CThostFtdcInvestorProductGroupMarginField_InvestUnitID_get(swigCPtr, this);
+  }
+
+  public void setProductGroupID(String value) {
+    ThostTradeApiJNI.CThostFtdcInvestorProductGroupMarginField_ProductGroupID_set(swigCPtr, this, value);
+  }
+
+  public String getProductGroupID() {
+    return ThostTradeApiJNI.CThostFtdcInvestorProductGroupMarginField_ProductGroupID_get(swigCPtr, this);
   }
 
   public CThostFtdcInvestorProductGroupMarginField() {

@@ -67,12 +67,12 @@ public class CThostFtdcUserSystemInfoField {
     return ThostTradeApiJNI.CThostFtdcUserSystemInfoField_ClientSystemInfo_get(swigCPtr, this);
   }
 
-  public void setClientPublicIP(String value) {
-    ThostTradeApiJNI.CThostFtdcUserSystemInfoField_ClientPublicIP_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcUserSystemInfoField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getClientPublicIP() {
-    return ThostTradeApiJNI.CThostFtdcUserSystemInfoField_ClientPublicIP_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcUserSystemInfoField_reserve1_get(swigCPtr, this);
   }
 
   public void setClientIPPort(int value) {
@@ -97,6 +97,14 @@ public class CThostFtdcUserSystemInfoField {
 
   public String getClientAppID() {
     return ThostTradeApiJNI.CThostFtdcUserSystemInfoField_ClientAppID_get(swigCPtr, this);
+  }
+
+  public void setClientPublicIP(String value) {
+    ThostTradeApiJNI.CThostFtdcUserSystemInfoField_ClientPublicIP_set(swigCPtr, this, value);
+  }
+
+  public String getClientPublicIP() {
+    return ThostTradeApiJNI.CThostFtdcUserSystemInfoField_ClientPublicIP_get(swigCPtr, this);
   }
 
   public CThostFtdcUserSystemInfoField() {

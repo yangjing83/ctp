@@ -1166,9 +1166,11 @@ public interface ThostTradeApiConstants {
   public final static char THOST_FTDC_COMBT_STD = ThostTradeApiJNI.THOST_FTDC_COMBT_STD_get();
   public final static char THOST_FTDC_COMBT_STG = ThostTradeApiJNI.THOST_FTDC_COMBT_STG_get();
   public final static char THOST_FTDC_COMBT_PRT = ThostTradeApiJNI.THOST_FTDC_COMBT_PRT_get();
-  public final static char THOST_FTDC_COMBT_CLD = ThostTradeApiJNI.THOST_FTDC_COMBT_CLD_get();
+  public final static char THOST_FTDC_COMBT_CAS = ThostTradeApiJNI.THOST_FTDC_COMBT_CAS_get();
   public final static char THOST_FTDC_COMBT_OPL = ThostTradeApiJNI.THOST_FTDC_COMBT_OPL_get();
   public final static char THOST_FTDC_COMBT_BFO = ThostTradeApiJNI.THOST_FTDC_COMBT_BFO_get();
+  public final static char THOST_FTDC_COMBT_BLS = ThostTradeApiJNI.THOST_FTDC_COMBT_BLS_get();
+  public final static char THOST_FTDC_COMBT_BES = ThostTradeApiJNI.THOST_FTDC_COMBT_BES_get();
   public final static char THOST_FTDC_DCECOMBT_SPL = ThostTradeApiJNI.THOST_FTDC_DCECOMBT_SPL_get();
   public final static char THOST_FTDC_DCECOMBT_OPL = ThostTradeApiJNI.THOST_FTDC_DCECOMBT_OPL_get();
   public final static char THOST_FTDC_DCECOMBT_SP = ThostTradeApiJNI.THOST_FTDC_DCECOMBT_SP_get();
@@ -1251,4 +1253,13 @@ public interface ThostTradeApiConstants {
   public final static char THOST_FTDC_OTC_TRDT_EFP = ThostTradeApiJNI.THOST_FTDC_OTC_TRDT_EFP_get();
   public final static char THOST_FTDC_OTC_MT_DV01 = ThostTradeApiJNI.THOST_FTDC_OTC_MT_DV01_get();
   public final static char THOST_FTDC_OTC_MT_ParValue = ThostTradeApiJNI.THOST_FTDC_OTC_MT_ParValue_get();
+  public final static char THOST_FTDC_AU_WHITE = ThostTradeApiJNI.THOST_FTDC_AU_WHITE_get();
+  public final static char THOST_FTDC_AU_BLACK = ThostTradeApiJNI.THOST_FTDC_AU_BLACK_get();
+  public final static char THOST_FTDC_INS_ALL = ThostTradeApiJNI.THOST_FTDC_INS_ALL_get();
+  public final static char THOST_FTDC_INS_FUTURE = ThostTradeApiJNI.THOST_FTDC_INS_FUTURE_get();
+  public final static char THOST_FTDC_INS_OPTION = ThostTradeApiJNI.THOST_FTDC_INS_OPTION_get();
+  public final static char THOST_FTDC_INS_COMB = ThostTradeApiJNI.THOST_FTDC_INS_COMB_get();
+  public final static char THOST_FTDC_TD_ALL = ThostTradeApiJNI.THOST_FTDC_TD_ALL_get();
+  public final static char THOST_FTDC_TD_TRADE = ThostTradeApiJNI.THOST_FTDC_TD_TRADE_get();
+  public final static char THOST_FTDC_TD_UNTRADE = ThostTradeApiJNI.THOST_FTDC_TD_UNTRADE_get();
 }

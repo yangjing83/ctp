@@ -35,12 +35,12 @@ public class CThostFtdcProductField {
     }
   }
 
-  public void setProductID(String value) {
-    ThostTradeApiJNI.CThostFtdcProductField_ProductID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcProductField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getProductID() {
-    return ThostTradeApiJNI.CThostFtdcProductField_ProductID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcProductField_reserve1_get(swigCPtr, this);
   }
 
   public void setProductName(String value) {
@@ -155,12 +155,12 @@ public class CThostFtdcProductField {
     return ThostTradeApiJNI.CThostFtdcProductField_MortgageFundUseRange_get(swigCPtr, this);
   }
 
-  public void setExchangeProductID(String value) {
-    ThostTradeApiJNI.CThostFtdcProductField_ExchangeProductID_set(swigCPtr, this, value);
+  public void setReserve2(String value) {
+    ThostTradeApiJNI.CThostFtdcProductField_reserve2_set(swigCPtr, this, value);
   }
 
-  public String getExchangeProductID() {
-    return ThostTradeApiJNI.CThostFtdcProductField_ExchangeProductID_get(swigCPtr, this);
+  public String getReserve2() {
+    return ThostTradeApiJNI.CThostFtdcProductField_reserve2_get(swigCPtr, this);
   }
 
   public void setUnderlyingMultiple(double value) {
@@ -169,6 +169,22 @@ public class CThostFtdcProductField {
 
   public double getUnderlyingMultiple() {
     return ThostTradeApiJNI.CThostFtdcProductField_UnderlyingMultiple_get(swigCPtr, this);
+  }
+
+  public void setProductID(String value) {
+    ThostTradeApiJNI.CThostFtdcProductField_ProductID_set(swigCPtr, this, value);
+  }
+
+  public String getProductID() {
+    return ThostTradeApiJNI.CThostFtdcProductField_ProductID_get(swigCPtr, this);
+  }
+
+  public void setExchangeProductID(String value) {
+    ThostTradeApiJNI.CThostFtdcProductField_ExchangeProductID_set(swigCPtr, this, value);
+  }
+
+  public String getExchangeProductID() {
+    return ThostTradeApiJNI.CThostFtdcProductField_ExchangeProductID_get(swigCPtr, this);
   }
 
   public CThostFtdcProductField() {

@@ -51,6 +51,14 @@ public class CThostFtdcLoginForbiddenUserField {
     return ThostTradeApiJNI.CThostFtdcLoginForbiddenUserField_UserID_get(swigCPtr, this);
   }
 
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcLoginForbiddenUserField_reserve1_set(swigCPtr, this, value);
+  }
+
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcLoginForbiddenUserField_reserve1_get(swigCPtr, this);
+  }
+
   public void setIPAddress(String value) {
     ThostTradeApiJNI.CThostFtdcLoginForbiddenUserField_IPAddress_set(swigCPtr, this, value);
   }

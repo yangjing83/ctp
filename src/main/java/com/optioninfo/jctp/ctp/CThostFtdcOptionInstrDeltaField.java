@@ -35,12 +35,12 @@ public class CThostFtdcOptionInstrDeltaField {
     }
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcOptionInstrDeltaField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcOptionInstrDeltaField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcOptionInstrDeltaField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcOptionInstrDeltaField_reserve1_get(swigCPtr, this);
   }
 
   public void setInvestorRange(char value) {
@@ -73,6 +73,14 @@ public class CThostFtdcOptionInstrDeltaField {
 
   public double getDelta() {
     return ThostTradeApiJNI.CThostFtdcOptionInstrDeltaField_Delta_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcOptionInstrDeltaField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcOptionInstrDeltaField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcOptionInstrDeltaField() {

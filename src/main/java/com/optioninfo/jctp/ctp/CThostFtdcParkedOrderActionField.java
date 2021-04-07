@@ -139,12 +139,12 @@ public class CThostFtdcParkedOrderActionField {
     return ThostTradeApiJNI.CThostFtdcParkedOrderActionField_UserID_get(swigCPtr, this);
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcParkedOrderActionField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcParkedOrderActionField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcParkedOrderActionField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcParkedOrderActionField_reserve1_get(swigCPtr, this);
   }
 
   public void setParkedOrderActionID(String value) {
@@ -195,12 +195,12 @@ public class CThostFtdcParkedOrderActionField {
     return ThostTradeApiJNI.CThostFtdcParkedOrderActionField_InvestUnitID_get(swigCPtr, this);
   }
 
-  public void setIPAddress(String value) {
-    ThostTradeApiJNI.CThostFtdcParkedOrderActionField_IPAddress_set(swigCPtr, this, value);
+  public void setReserve2(String value) {
+    ThostTradeApiJNI.CThostFtdcParkedOrderActionField_reserve2_set(swigCPtr, this, value);
   }
 
-  public String getIPAddress() {
-    return ThostTradeApiJNI.CThostFtdcParkedOrderActionField_IPAddress_get(swigCPtr, this);
+  public String getReserve2() {
+    return ThostTradeApiJNI.CThostFtdcParkedOrderActionField_reserve2_get(swigCPtr, this);
   }
 
   public void setMacAddress(String value) {
@@ -209,6 +209,22 @@ public class CThostFtdcParkedOrderActionField {
 
   public String getMacAddress() {
     return ThostTradeApiJNI.CThostFtdcParkedOrderActionField_MacAddress_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcParkedOrderActionField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcParkedOrderActionField_InstrumentID_get(swigCPtr, this);
+  }
+
+  public void setIPAddress(String value) {
+    ThostTradeApiJNI.CThostFtdcParkedOrderActionField_IPAddress_set(swigCPtr, this, value);
+  }
+
+  public String getIPAddress() {
+    return ThostTradeApiJNI.CThostFtdcParkedOrderActionField_IPAddress_get(swigCPtr, this);
   }
 
   public CThostFtdcParkedOrderActionField() {

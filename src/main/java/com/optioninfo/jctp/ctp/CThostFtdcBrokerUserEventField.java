@@ -99,6 +99,14 @@ public class CThostFtdcBrokerUserEventField {
     return ThostTradeApiJNI.CThostFtdcBrokerUserEventField_InvestorID_get(swigCPtr, this);
   }
 
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcBrokerUserEventField_reserve1_set(swigCPtr, this, value);
+  }
+
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcBrokerUserEventField_reserve1_get(swigCPtr, this);
+  }
+
   public void setInstrumentID(String value) {
     ThostTradeApiJNI.CThostFtdcBrokerUserEventField_InstrumentID_set(swigCPtr, this, value);
   }

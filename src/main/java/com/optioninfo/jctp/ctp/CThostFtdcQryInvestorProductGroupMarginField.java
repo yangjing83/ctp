@@ -51,12 +51,12 @@ public class CThostFtdcQryInvestorProductGroupMarginField {
     return ThostTradeApiJNI.CThostFtdcQryInvestorProductGroupMarginField_InvestorID_get(swigCPtr, this);
   }
 
-  public void setProductGroupID(String value) {
-    ThostTradeApiJNI.CThostFtdcQryInvestorProductGroupMarginField_ProductGroupID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcQryInvestorProductGroupMarginField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getProductGroupID() {
-    return ThostTradeApiJNI.CThostFtdcQryInvestorProductGroupMarginField_ProductGroupID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcQryInvestorProductGroupMarginField_reserve1_get(swigCPtr, this);
   }
 
   public void setHedgeFlag(char value) {
@@ -81,6 +81,14 @@ public class CThostFtdcQryInvestorProductGroupMarginField {
 
   public String getInvestUnitID() {
     return ThostTradeApiJNI.CThostFtdcQryInvestorProductGroupMarginField_InvestUnitID_get(swigCPtr, this);
+  }
+
+  public void setProductGroupID(String value) {
+    ThostTradeApiJNI.CThostFtdcQryInvestorProductGroupMarginField_ProductGroupID_set(swigCPtr, this, value);
+  }
+
+  public String getProductGroupID() {
+    return ThostTradeApiJNI.CThostFtdcQryInvestorProductGroupMarginField_ProductGroupID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryInvestorProductGroupMarginField() {

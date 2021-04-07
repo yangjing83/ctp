@@ -35,6 +35,14 @@ public class CThostFtdcQryAuthForbiddenIPField {
     }
   }
 
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcQryAuthForbiddenIPField_reserve1_set(swigCPtr, this, value);
+  }
+
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcQryAuthForbiddenIPField_reserve1_get(swigCPtr, this);
+  }
+
   public void setIPAddress(String value) {
     ThostTradeApiJNI.CThostFtdcQryAuthForbiddenIPField_IPAddress_set(swigCPtr, this, value);
   }

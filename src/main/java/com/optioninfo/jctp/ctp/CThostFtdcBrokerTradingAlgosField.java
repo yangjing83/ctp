@@ -51,12 +51,12 @@ public class CThostFtdcBrokerTradingAlgosField {
     return ThostTradeApiJNI.CThostFtdcBrokerTradingAlgosField_ExchangeID_get(swigCPtr, this);
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcBrokerTradingAlgosField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcBrokerTradingAlgosField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcBrokerTradingAlgosField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcBrokerTradingAlgosField_reserve1_get(swigCPtr, this);
   }
 
   public void setHandlePositionAlgoID(char value) {
@@ -81,6 +81,14 @@ public class CThostFtdcBrokerTradingAlgosField {
 
   public char getHandleTradingAccountAlgoID() {
     return ThostTradeApiJNI.CThostFtdcBrokerTradingAlgosField_HandleTradingAccountAlgoID_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcBrokerTradingAlgosField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcBrokerTradingAlgosField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcBrokerTradingAlgosField() {

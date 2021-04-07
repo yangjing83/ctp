@@ -59,12 +59,12 @@ public class CThostFtdcFutureLimitPosiParamField {
     return ThostTradeApiJNI.CThostFtdcFutureLimitPosiParamField_InvestorID_get(swigCPtr, this);
   }
 
-  public void setProductID(String value) {
-    ThostTradeApiJNI.CThostFtdcFutureLimitPosiParamField_ProductID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcFutureLimitPosiParamField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getProductID() {
-    return ThostTradeApiJNI.CThostFtdcFutureLimitPosiParamField_ProductID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcFutureLimitPosiParamField_reserve1_get(swigCPtr, this);
   }
 
   public void setSpecOpenVolume(int value) {
@@ -89,6 +89,14 @@ public class CThostFtdcFutureLimitPosiParamField {
 
   public int getOpenVolume() {
     return ThostTradeApiJNI.CThostFtdcFutureLimitPosiParamField_OpenVolume_get(swigCPtr, this);
+  }
+
+  public void setProductID(String value) {
+    ThostTradeApiJNI.CThostFtdcFutureLimitPosiParamField_ProductID_set(swigCPtr, this, value);
+  }
+
+  public String getProductID() {
+    return ThostTradeApiJNI.CThostFtdcFutureLimitPosiParamField_ProductID_get(swigCPtr, this);
   }
 
   public CThostFtdcFutureLimitPosiParamField() {

@@ -43,12 +43,12 @@ public class CThostFtdcInstrumentStatusField {
     return ThostTradeApiJNI.CThostFtdcInstrumentStatusField_ExchangeID_get(swigCPtr, this);
   }
 
-  public void setExchangeInstID(String value) {
-    ThostTradeApiJNI.CThostFtdcInstrumentStatusField_ExchangeInstID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcInstrumentStatusField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getExchangeInstID() {
-    return ThostTradeApiJNI.CThostFtdcInstrumentStatusField_ExchangeInstID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcInstrumentStatusField_reserve1_get(swigCPtr, this);
   }
 
   public void setSettlementGroupID(String value) {
@@ -59,12 +59,12 @@ public class CThostFtdcInstrumentStatusField {
     return ThostTradeApiJNI.CThostFtdcInstrumentStatusField_SettlementGroupID_get(swigCPtr, this);
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcInstrumentStatusField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve2(String value) {
+    ThostTradeApiJNI.CThostFtdcInstrumentStatusField_reserve2_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcInstrumentStatusField_InstrumentID_get(swigCPtr, this);
+  public String getReserve2() {
+    return ThostTradeApiJNI.CThostFtdcInstrumentStatusField_reserve2_get(swigCPtr, this);
   }
 
   public void setInstrumentStatus(char value) {
@@ -97,6 +97,22 @@ public class CThostFtdcInstrumentStatusField {
 
   public char getEnterReason() {
     return ThostTradeApiJNI.CThostFtdcInstrumentStatusField_EnterReason_get(swigCPtr, this);
+  }
+
+  public void setExchangeInstID(String value) {
+    ThostTradeApiJNI.CThostFtdcInstrumentStatusField_ExchangeInstID_set(swigCPtr, this, value);
+  }
+
+  public String getExchangeInstID() {
+    return ThostTradeApiJNI.CThostFtdcInstrumentStatusField_ExchangeInstID_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcInstrumentStatusField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcInstrumentStatusField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcInstrumentStatusField() {

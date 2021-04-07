@@ -91,6 +91,14 @@ public class CThostFtdcAuthenticationInfoField {
     return ThostTradeApiJNI.CThostFtdcAuthenticationInfoField_AppType_get(swigCPtr, this);
   }
 
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcAuthenticationInfoField_reserve1_set(swigCPtr, this, value);
+  }
+
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcAuthenticationInfoField_reserve1_get(swigCPtr, this);
+  }
+
   public void setClientIPAddress(String value) {
     ThostTradeApiJNI.CThostFtdcAuthenticationInfoField_ClientIPAddress_set(swigCPtr, this, value);
   }

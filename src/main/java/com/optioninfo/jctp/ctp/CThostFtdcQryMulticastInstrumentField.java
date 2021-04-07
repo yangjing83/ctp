@@ -43,6 +43,14 @@ public class CThostFtdcQryMulticastInstrumentField {
     return ThostTradeApiJNI.CThostFtdcQryMulticastInstrumentField_TopicID_get(swigCPtr, this);
   }
 
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcQryMulticastInstrumentField_reserve1_set(swigCPtr, this, value);
+  }
+
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcQryMulticastInstrumentField_reserve1_get(swigCPtr, this);
+  }
+
   public void setInstrumentID(String value) {
     ThostTradeApiJNI.CThostFtdcQryMulticastInstrumentField_InstrumentID_set(swigCPtr, this, value);
   }

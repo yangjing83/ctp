@@ -35,12 +35,12 @@ public class CThostFtdcStrikeOffsetField {
     }
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcStrikeOffsetField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcStrikeOffsetField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcStrikeOffsetField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcStrikeOffsetField_reserve1_get(swigCPtr, this);
   }
 
   public void setInvestorRange(char value) {
@@ -81,6 +81,14 @@ public class CThostFtdcStrikeOffsetField {
 
   public char getOffsetType() {
     return ThostTradeApiJNI.CThostFtdcStrikeOffsetField_OffsetType_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcStrikeOffsetField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcStrikeOffsetField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcStrikeOffsetField() {

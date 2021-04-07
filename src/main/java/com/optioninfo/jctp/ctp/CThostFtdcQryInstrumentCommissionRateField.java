@@ -51,12 +51,12 @@ public class CThostFtdcQryInstrumentCommissionRateField {
     return ThostTradeApiJNI.CThostFtdcQryInstrumentCommissionRateField_InvestorID_get(swigCPtr, this);
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcQryInstrumentCommissionRateField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcQryInstrumentCommissionRateField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcQryInstrumentCommissionRateField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcQryInstrumentCommissionRateField_reserve1_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
@@ -73,6 +73,14 @@ public class CThostFtdcQryInstrumentCommissionRateField {
 
   public String getInvestUnitID() {
     return ThostTradeApiJNI.CThostFtdcQryInstrumentCommissionRateField_InvestUnitID_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcQryInstrumentCommissionRateField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcQryInstrumentCommissionRateField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryInstrumentCommissionRateField() {

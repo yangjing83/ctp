@@ -163,12 +163,12 @@ public class CThostFtdcExchangeExecOrderActionField {
     return ThostTradeApiJNI.CThostFtdcExchangeExecOrderActionField_BranchID_get(swigCPtr, this);
   }
 
-  public void setIPAddress(String value) {
-    ThostTradeApiJNI.CThostFtdcExchangeExecOrderActionField_IPAddress_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcExchangeExecOrderActionField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getIPAddress() {
-    return ThostTradeApiJNI.CThostFtdcExchangeExecOrderActionField_IPAddress_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcExchangeExecOrderActionField_reserve1_get(swigCPtr, this);
   }
 
   public void setMacAddress(String value) {
@@ -179,12 +179,12 @@ public class CThostFtdcExchangeExecOrderActionField {
     return ThostTradeApiJNI.CThostFtdcExchangeExecOrderActionField_MacAddress_get(swigCPtr, this);
   }
 
-  public void setExchangeInstID(String value) {
-    ThostTradeApiJNI.CThostFtdcExchangeExecOrderActionField_ExchangeInstID_set(swigCPtr, this, value);
+  public void setReserve2(String value) {
+    ThostTradeApiJNI.CThostFtdcExchangeExecOrderActionField_reserve2_set(swigCPtr, this, value);
   }
 
-  public String getExchangeInstID() {
-    return ThostTradeApiJNI.CThostFtdcExchangeExecOrderActionField_ExchangeInstID_get(swigCPtr, this);
+  public String getReserve2() {
+    return ThostTradeApiJNI.CThostFtdcExchangeExecOrderActionField_reserve2_get(swigCPtr, this);
   }
 
   public void setVolume(int value) {
@@ -193,6 +193,22 @@ public class CThostFtdcExchangeExecOrderActionField {
 
   public int getVolume() {
     return ThostTradeApiJNI.CThostFtdcExchangeExecOrderActionField_Volume_get(swigCPtr, this);
+  }
+
+  public void setIPAddress(String value) {
+    ThostTradeApiJNI.CThostFtdcExchangeExecOrderActionField_IPAddress_set(swigCPtr, this, value);
+  }
+
+  public String getIPAddress() {
+    return ThostTradeApiJNI.CThostFtdcExchangeExecOrderActionField_IPAddress_get(swigCPtr, this);
+  }
+
+  public void setExchangeInstID(String value) {
+    ThostTradeApiJNI.CThostFtdcExchangeExecOrderActionField_ExchangeInstID_set(swigCPtr, this, value);
+  }
+
+  public String getExchangeInstID() {
+    return ThostTradeApiJNI.CThostFtdcExchangeExecOrderActionField_ExchangeInstID_get(swigCPtr, this);
   }
 
   public CThostFtdcExchangeExecOrderActionField() {

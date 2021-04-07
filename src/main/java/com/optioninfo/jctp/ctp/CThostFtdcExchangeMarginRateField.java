@@ -43,12 +43,12 @@ public class CThostFtdcExchangeMarginRateField {
     return ThostTradeApiJNI.CThostFtdcExchangeMarginRateField_BrokerID_get(swigCPtr, this);
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcExchangeMarginRateField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcExchangeMarginRateField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcExchangeMarginRateField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcExchangeMarginRateField_reserve1_get(swigCPtr, this);
   }
 
   public void setHedgeFlag(char value) {
@@ -97,6 +97,14 @@ public class CThostFtdcExchangeMarginRateField {
 
   public String getExchangeID() {
     return ThostTradeApiJNI.CThostFtdcExchangeMarginRateField_ExchangeID_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcExchangeMarginRateField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcExchangeMarginRateField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcExchangeMarginRateField() {

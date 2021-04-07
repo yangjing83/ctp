@@ -43,12 +43,12 @@ public class CThostFtdcIndexPriceField {
     return ThostTradeApiJNI.CThostFtdcIndexPriceField_BrokerID_get(swigCPtr, this);
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcIndexPriceField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcIndexPriceField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcIndexPriceField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcIndexPriceField_reserve1_get(swigCPtr, this);
   }
 
   public void setClosePrice(double value) {
@@ -57,6 +57,14 @@ public class CThostFtdcIndexPriceField {
 
   public double getClosePrice() {
     return ThostTradeApiJNI.CThostFtdcIndexPriceField_ClosePrice_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcIndexPriceField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcIndexPriceField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcIndexPriceField() {

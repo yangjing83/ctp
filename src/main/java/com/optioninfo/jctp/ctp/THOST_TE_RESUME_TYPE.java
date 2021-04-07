@@ -12,6 +12,7 @@ public final class THOST_TE_RESUME_TYPE {
   public final static THOST_TE_RESUME_TYPE THOST_TERT_RESTART = new THOST_TE_RESUME_TYPE("THOST_TERT_RESTART", ThostTradeApiJNI.THOST_TERT_RESTART_get());
   public final static THOST_TE_RESUME_TYPE THOST_TERT_RESUME = new THOST_TE_RESUME_TYPE("THOST_TERT_RESUME");
   public final static THOST_TE_RESUME_TYPE THOST_TERT_QUICK = new THOST_TE_RESUME_TYPE("THOST_TERT_QUICK");
+  public final static THOST_TE_RESUME_TYPE THOST_TERT_NONE = new THOST_TE_RESUME_TYPE("THOST_TERT_NONE");
 
   public final int swigValue() {
     return swigValue;
@@ -47,7 +48,7 @@ public final class THOST_TE_RESUME_TYPE {
     swigNext = this.swigValue+1;
   }
 
-  private static THOST_TE_RESUME_TYPE[] swigValues = { THOST_TERT_RESTART, THOST_TERT_RESUME, THOST_TERT_QUICK };
+  private static THOST_TE_RESUME_TYPE[] swigValues = { THOST_TERT_RESTART, THOST_TERT_RESUME, THOST_TERT_QUICK, THOST_TERT_NONE };
   private static int swigNext = 0;
   private final int swigValue;
   private final String swigName;

@@ -51,6 +51,14 @@ public class CThostFtdcQryMMInstrumentCommissionRateField {
     return ThostTradeApiJNI.CThostFtdcQryMMInstrumentCommissionRateField_InvestorID_get(swigCPtr, this);
   }
 
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcQryMMInstrumentCommissionRateField_reserve1_set(swigCPtr, this, value);
+  }
+
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcQryMMInstrumentCommissionRateField_reserve1_get(swigCPtr, this);
+  }
+
   public void setInstrumentID(String value) {
     ThostTradeApiJNI.CThostFtdcQryMMInstrumentCommissionRateField_InstrumentID_set(swigCPtr, this, value);
   }

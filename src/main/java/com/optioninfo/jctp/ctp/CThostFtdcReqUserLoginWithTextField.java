@@ -99,12 +99,12 @@ public class CThostFtdcReqUserLoginWithTextField {
     return ThostTradeApiJNI.CThostFtdcReqUserLoginWithTextField_MacAddress_get(swigCPtr, this);
   }
 
-  public void setClientIPAddress(String value) {
-    ThostTradeApiJNI.CThostFtdcReqUserLoginWithTextField_ClientIPAddress_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcReqUserLoginWithTextField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getClientIPAddress() {
-    return ThostTradeApiJNI.CThostFtdcReqUserLoginWithTextField_ClientIPAddress_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcReqUserLoginWithTextField_reserve1_get(swigCPtr, this);
   }
 
   public void setLoginRemark(String value) {
@@ -129,6 +129,14 @@ public class CThostFtdcReqUserLoginWithTextField {
 
   public int getClientIPPort() {
     return ThostTradeApiJNI.CThostFtdcReqUserLoginWithTextField_ClientIPPort_get(swigCPtr, this);
+  }
+
+  public void setClientIPAddress(String value) {
+    ThostTradeApiJNI.CThostFtdcReqUserLoginWithTextField_ClientIPAddress_set(swigCPtr, this, value);
+  }
+
+  public String getClientIPAddress() {
+    return ThostTradeApiJNI.CThostFtdcReqUserLoginWithTextField_ClientIPAddress_get(swigCPtr, this);
   }
 
   public CThostFtdcReqUserLoginWithTextField() {

@@ -51,12 +51,12 @@ public class CThostFtdcQuoteField {
     return ThostTradeApiJNI.CThostFtdcQuoteField_InvestorID_get(swigCPtr, this);
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcQuoteField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcQuoteField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcQuoteField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcQuoteField_reserve1_get(swigCPtr, this);
   }
 
   public void setQuoteRef(String value) {
@@ -187,12 +187,12 @@ public class CThostFtdcQuoteField {
     return ThostTradeApiJNI.CThostFtdcQuoteField_ClientID_get(swigCPtr, this);
   }
 
-  public void setExchangeInstID(String value) {
-    ThostTradeApiJNI.CThostFtdcQuoteField_ExchangeInstID_set(swigCPtr, this, value);
+  public void setReserve2(String value) {
+    ThostTradeApiJNI.CThostFtdcQuoteField_reserve2_set(swigCPtr, this, value);
   }
 
-  public String getExchangeInstID() {
-    return ThostTradeApiJNI.CThostFtdcQuoteField_ExchangeInstID_get(swigCPtr, this);
+  public String getReserve2() {
+    return ThostTradeApiJNI.CThostFtdcQuoteField_reserve2_get(swigCPtr, this);
   }
 
   public void setTraderID(String value) {
@@ -419,12 +419,12 @@ public class CThostFtdcQuoteField {
     return ThostTradeApiJNI.CThostFtdcQuoteField_CurrencyID_get(swigCPtr, this);
   }
 
-  public void setIPAddress(String value) {
-    ThostTradeApiJNI.CThostFtdcQuoteField_IPAddress_set(swigCPtr, this, value);
+  public void setReserve3(String value) {
+    ThostTradeApiJNI.CThostFtdcQuoteField_reserve3_set(swigCPtr, this, value);
   }
 
-  public String getIPAddress() {
-    return ThostTradeApiJNI.CThostFtdcQuoteField_IPAddress_get(swigCPtr, this);
+  public String getReserve3() {
+    return ThostTradeApiJNI.CThostFtdcQuoteField_reserve3_get(swigCPtr, this);
   }
 
   public void setMacAddress(String value) {
@@ -433,6 +433,30 @@ public class CThostFtdcQuoteField {
 
   public String getMacAddress() {
     return ThostTradeApiJNI.CThostFtdcQuoteField_MacAddress_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcQuoteField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcQuoteField_InstrumentID_get(swigCPtr, this);
+  }
+
+  public void setExchangeInstID(String value) {
+    ThostTradeApiJNI.CThostFtdcQuoteField_ExchangeInstID_set(swigCPtr, this, value);
+  }
+
+  public String getExchangeInstID() {
+    return ThostTradeApiJNI.CThostFtdcQuoteField_ExchangeInstID_get(swigCPtr, this);
+  }
+
+  public void setIPAddress(String value) {
+    ThostTradeApiJNI.CThostFtdcQuoteField_IPAddress_set(swigCPtr, this, value);
+  }
+
+  public String getIPAddress() {
+    return ThostTradeApiJNI.CThostFtdcQuoteField_IPAddress_get(swigCPtr, this);
   }
 
   public CThostFtdcQuoteField() {

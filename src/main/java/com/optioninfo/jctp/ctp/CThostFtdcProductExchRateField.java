@@ -35,12 +35,12 @@ public class CThostFtdcProductExchRateField {
     }
   }
 
-  public void setProductID(String value) {
-    ThostTradeApiJNI.CThostFtdcProductExchRateField_ProductID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcProductExchRateField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getProductID() {
-    return ThostTradeApiJNI.CThostFtdcProductExchRateField_ProductID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcProductExchRateField_reserve1_get(swigCPtr, this);
   }
 
   public void setQuoteCurrencyID(String value) {
@@ -65,6 +65,14 @@ public class CThostFtdcProductExchRateField {
 
   public String getExchangeID() {
     return ThostTradeApiJNI.CThostFtdcProductExchRateField_ExchangeID_get(swigCPtr, this);
+  }
+
+  public void setProductID(String value) {
+    ThostTradeApiJNI.CThostFtdcProductExchRateField_ProductID_set(swigCPtr, this, value);
+  }
+
+  public String getProductID() {
+    return ThostTradeApiJNI.CThostFtdcProductExchRateField_ProductID_get(swigCPtr, this);
   }
 
   public CThostFtdcProductExchRateField() {

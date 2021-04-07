@@ -51,12 +51,12 @@ public class CThostFtdcInputOptionSelfCloseField {
     return ThostTradeApiJNI.CThostFtdcInputOptionSelfCloseField_InvestorID_get(swigCPtr, this);
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcInputOptionSelfCloseField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcInputOptionSelfCloseField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcInputOptionSelfCloseField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcInputOptionSelfCloseField_reserve1_get(swigCPtr, this);
   }
 
   public void setOptionSelfCloseRef(String value) {
@@ -155,12 +155,12 @@ public class CThostFtdcInputOptionSelfCloseField {
     return ThostTradeApiJNI.CThostFtdcInputOptionSelfCloseField_ClientID_get(swigCPtr, this);
   }
 
-  public void setIPAddress(String value) {
-    ThostTradeApiJNI.CThostFtdcInputOptionSelfCloseField_IPAddress_set(swigCPtr, this, value);
+  public void setReserve2(String value) {
+    ThostTradeApiJNI.CThostFtdcInputOptionSelfCloseField_reserve2_set(swigCPtr, this, value);
   }
 
-  public String getIPAddress() {
-    return ThostTradeApiJNI.CThostFtdcInputOptionSelfCloseField_IPAddress_get(swigCPtr, this);
+  public String getReserve2() {
+    return ThostTradeApiJNI.CThostFtdcInputOptionSelfCloseField_reserve2_get(swigCPtr, this);
   }
 
   public void setMacAddress(String value) {
@@ -169,6 +169,22 @@ public class CThostFtdcInputOptionSelfCloseField {
 
   public String getMacAddress() {
     return ThostTradeApiJNI.CThostFtdcInputOptionSelfCloseField_MacAddress_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcInputOptionSelfCloseField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcInputOptionSelfCloseField_InstrumentID_get(swigCPtr, this);
+  }
+
+  public void setIPAddress(String value) {
+    ThostTradeApiJNI.CThostFtdcInputOptionSelfCloseField_IPAddress_set(swigCPtr, this, value);
+  }
+
+  public String getIPAddress() {
+    return ThostTradeApiJNI.CThostFtdcInputOptionSelfCloseField_IPAddress_get(swigCPtr, this);
   }
 
   public CThostFtdcInputOptionSelfCloseField() {

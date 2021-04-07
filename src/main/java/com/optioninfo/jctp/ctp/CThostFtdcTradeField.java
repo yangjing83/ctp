@@ -51,12 +51,12 @@ public class CThostFtdcTradeField {
     return ThostTradeApiJNI.CThostFtdcTradeField_InvestorID_get(swigCPtr, this);
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcTradeField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcTradeField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcTradeField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcTradeField_reserve1_get(swigCPtr, this);
   }
 
   public void setOrderRef(String value) {
@@ -131,12 +131,12 @@ public class CThostFtdcTradeField {
     return ThostTradeApiJNI.CThostFtdcTradeField_TradingRole_get(swigCPtr, this);
   }
 
-  public void setExchangeInstID(String value) {
-    ThostTradeApiJNI.CThostFtdcTradeField_ExchangeInstID_set(swigCPtr, this, value);
+  public void setReserve2(String value) {
+    ThostTradeApiJNI.CThostFtdcTradeField_reserve2_set(swigCPtr, this, value);
   }
 
-  public String getExchangeInstID() {
-    return ThostTradeApiJNI.CThostFtdcTradeField_ExchangeInstID_get(swigCPtr, this);
+  public String getReserve2() {
+    return ThostTradeApiJNI.CThostFtdcTradeField_reserve2_get(swigCPtr, this);
   }
 
   public void setOffsetFlag(char value) {
@@ -281,6 +281,22 @@ public class CThostFtdcTradeField {
 
   public String getInvestUnitID() {
     return ThostTradeApiJNI.CThostFtdcTradeField_InvestUnitID_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcTradeField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcTradeField_InstrumentID_get(swigCPtr, this);
+  }
+
+  public void setExchangeInstID(String value) {
+    ThostTradeApiJNI.CThostFtdcTradeField_ExchangeInstID_set(swigCPtr, this, value);
+  }
+
+  public String getExchangeInstID() {
+    return ThostTradeApiJNI.CThostFtdcTradeField_ExchangeInstID_get(swigCPtr, this);
   }
 
   public CThostFtdcTradeField() {

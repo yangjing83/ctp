@@ -43,12 +43,12 @@ public class CThostFtdcQryForQuoteParamField {
     return ThostTradeApiJNI.CThostFtdcQryForQuoteParamField_BrokerID_get(swigCPtr, this);
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcQryForQuoteParamField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcQryForQuoteParamField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcQryForQuoteParamField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcQryForQuoteParamField_reserve1_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
@@ -57,6 +57,14 @@ public class CThostFtdcQryForQuoteParamField {
 
   public String getExchangeID() {
     return ThostTradeApiJNI.CThostFtdcQryForQuoteParamField_ExchangeID_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcQryForQuoteParamField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcQryForQuoteParamField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryForQuoteParamField() {

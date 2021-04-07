@@ -43,6 +43,14 @@ public class CThostFtdcQryInstrumentStatusField {
     return ThostTradeApiJNI.CThostFtdcQryInstrumentStatusField_ExchangeID_get(swigCPtr, this);
   }
 
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcQryInstrumentStatusField_reserve1_set(swigCPtr, this, value);
+  }
+
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcQryInstrumentStatusField_reserve1_get(swigCPtr, this);
+  }
+
   public void setExchangeInstID(String value) {
     ThostTradeApiJNI.CThostFtdcQryInstrumentStatusField_ExchangeInstID_set(swigCPtr, this, value);
   }

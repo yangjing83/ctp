@@ -91,12 +91,12 @@ public class CThostFtdcExchangeTradeField {
     return ThostTradeApiJNI.CThostFtdcExchangeTradeField_TradingRole_get(swigCPtr, this);
   }
 
-  public void setExchangeInstID(String value) {
-    ThostTradeApiJNI.CThostFtdcExchangeTradeField_ExchangeInstID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcExchangeTradeField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getExchangeInstID() {
-    return ThostTradeApiJNI.CThostFtdcExchangeTradeField_ExchangeInstID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcExchangeTradeField_reserve1_get(swigCPtr, this);
   }
 
   public void setOffsetFlag(char value) {
@@ -209,6 +209,14 @@ public class CThostFtdcExchangeTradeField {
 
   public char getTradeSource() {
     return ThostTradeApiJNI.CThostFtdcExchangeTradeField_TradeSource_get(swigCPtr, this);
+  }
+
+  public void setExchangeInstID(String value) {
+    ThostTradeApiJNI.CThostFtdcExchangeTradeField_ExchangeInstID_set(swigCPtr, this, value);
+  }
+
+  public String getExchangeInstID() {
+    return ThostTradeApiJNI.CThostFtdcExchangeTradeField_ExchangeInstID_get(swigCPtr, this);
   }
 
   public CThostFtdcExchangeTradeField() {

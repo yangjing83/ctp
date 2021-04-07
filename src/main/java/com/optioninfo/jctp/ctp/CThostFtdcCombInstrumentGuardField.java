@@ -43,12 +43,12 @@ public class CThostFtdcCombInstrumentGuardField {
     return ThostTradeApiJNI.CThostFtdcCombInstrumentGuardField_BrokerID_get(swigCPtr, this);
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcCombInstrumentGuardField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcCombInstrumentGuardField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcCombInstrumentGuardField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcCombInstrumentGuardField_reserve1_get(swigCPtr, this);
   }
 
   public void setGuarantRatio(double value) {
@@ -65,6 +65,14 @@ public class CThostFtdcCombInstrumentGuardField {
 
   public String getExchangeID() {
     return ThostTradeApiJNI.CThostFtdcCombInstrumentGuardField_ExchangeID_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcCombInstrumentGuardField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcCombInstrumentGuardField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcCombInstrumentGuardField() {

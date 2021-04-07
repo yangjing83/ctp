@@ -43,12 +43,12 @@ public class CThostFtdcQryCombInstrumentGuardField {
     return ThostTradeApiJNI.CThostFtdcQryCombInstrumentGuardField_BrokerID_get(swigCPtr, this);
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcQryCombInstrumentGuardField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcQryCombInstrumentGuardField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcQryCombInstrumentGuardField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcQryCombInstrumentGuardField_reserve1_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
@@ -57,6 +57,14 @@ public class CThostFtdcQryCombInstrumentGuardField {
 
   public String getExchangeID() {
     return ThostTradeApiJNI.CThostFtdcQryCombInstrumentGuardField_ExchangeID_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcQryCombInstrumentGuardField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcQryCombInstrumentGuardField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryCombInstrumentGuardField() {

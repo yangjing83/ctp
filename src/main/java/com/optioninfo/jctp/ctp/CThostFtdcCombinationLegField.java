@@ -35,12 +35,12 @@ public class CThostFtdcCombinationLegField {
     }
   }
 
-  public void setCombInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcCombinationLegField_CombInstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcCombinationLegField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getCombInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcCombinationLegField_CombInstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcCombinationLegField_reserve1_get(swigCPtr, this);
   }
 
   public void setLegID(int value) {
@@ -51,12 +51,12 @@ public class CThostFtdcCombinationLegField {
     return ThostTradeApiJNI.CThostFtdcCombinationLegField_LegID_get(swigCPtr, this);
   }
 
-  public void setLegInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcCombinationLegField_LegInstrumentID_set(swigCPtr, this, value);
+  public void setReserve2(String value) {
+    ThostTradeApiJNI.CThostFtdcCombinationLegField_reserve2_set(swigCPtr, this, value);
   }
 
-  public String getLegInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcCombinationLegField_LegInstrumentID_get(swigCPtr, this);
+  public String getReserve2() {
+    return ThostTradeApiJNI.CThostFtdcCombinationLegField_reserve2_get(swigCPtr, this);
   }
 
   public void setDirection(char value) {
@@ -81,6 +81,22 @@ public class CThostFtdcCombinationLegField {
 
   public int getImplyLevel() {
     return ThostTradeApiJNI.CThostFtdcCombinationLegField_ImplyLevel_get(swigCPtr, this);
+  }
+
+  public void setCombInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcCombinationLegField_CombInstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getCombInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcCombinationLegField_CombInstrumentID_get(swigCPtr, this);
+  }
+
+  public void setLegInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcCombinationLegField_LegInstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getLegInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcCombinationLegField_LegInstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcCombinationLegField() {

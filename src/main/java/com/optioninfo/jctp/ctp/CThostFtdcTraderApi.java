@@ -153,8 +153,8 @@ public class CThostFtdcTraderApi {
     return ThostTradeApiJNI.CThostFtdcTraderApi_ReqOrderAction(swigCPtr, this, CThostFtdcInputOrderActionField.getCPtr(pInputOrderAction), pInputOrderAction, nRequestID);
   }
 
-  public int ReqQueryMaxOrderVolume(CThostFtdcQueryMaxOrderVolumeField pQueryMaxOrderVolume, int nRequestID) {
-    return ThostTradeApiJNI.CThostFtdcTraderApi_ReqQueryMaxOrderVolume(swigCPtr, this, CThostFtdcQueryMaxOrderVolumeField.getCPtr(pQueryMaxOrderVolume), pQueryMaxOrderVolume, nRequestID);
+  public int ReqQryMaxOrderVolume(CThostFtdcQryMaxOrderVolumeField pQryMaxOrderVolume, int nRequestID) {
+    return ThostTradeApiJNI.CThostFtdcTraderApi_ReqQryMaxOrderVolume(swigCPtr, this, CThostFtdcQryMaxOrderVolumeField.getCPtr(pQryMaxOrderVolume), pQryMaxOrderVolume, nRequestID);
   }
 
   public int ReqSettlementInfoConfirm(CThostFtdcSettlementInfoConfirmField pSettlementInfoConfirm, int nRequestID) {
@@ -419,6 +419,14 @@ public class CThostFtdcTraderApi {
 
   public int ReqQueryBankAccountMoneyByFuture(CThostFtdcReqQueryAccountField pReqQueryAccount, int nRequestID) {
     return ThostTradeApiJNI.CThostFtdcTraderApi_ReqQueryBankAccountMoneyByFuture(swigCPtr, this, CThostFtdcReqQueryAccountField.getCPtr(pReqQueryAccount), pReqQueryAccount, nRequestID);
+  }
+
+  public int ReqQryClassifiedInstrument(CThostFtdcQryClassifiedInstrumentField pQryClassifiedInstrument, int nRequestID) {
+    return ThostTradeApiJNI.CThostFtdcTraderApi_ReqQryClassifiedInstrument(swigCPtr, this, CThostFtdcQryClassifiedInstrumentField.getCPtr(pQryClassifiedInstrument), pQryClassifiedInstrument, nRequestID);
+  }
+
+  public int ReqQryCombPromotionParam(CThostFtdcQryCombPromotionParamField pQryCombPromotionParam, int nRequestID) {
+    return ThostTradeApiJNI.CThostFtdcTraderApi_ReqQryCombPromotionParam(swigCPtr, this, CThostFtdcQryCombPromotionParamField.getCPtr(pQryCombPromotionParam), pQryCombPromotionParam, nRequestID);
   }
 
 }

@@ -35,12 +35,12 @@ public class CThostFtdcInvestorPositionDetailField {
     }
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcInvestorPositionDetailField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcInvestorPositionDetailField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcInvestorPositionDetailField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcInvestorPositionDetailField_reserve1_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
@@ -131,12 +131,12 @@ public class CThostFtdcInvestorPositionDetailField {
     return ThostTradeApiJNI.CThostFtdcInvestorPositionDetailField_TradeType_get(swigCPtr, this);
   }
 
-  public void setCombInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcInvestorPositionDetailField_CombInstrumentID_set(swigCPtr, this, value);
+  public void setReserve2(String value) {
+    ThostTradeApiJNI.CThostFtdcInvestorPositionDetailField_reserve2_set(swigCPtr, this, value);
   }
 
-  public String getCombInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcInvestorPositionDetailField_CombInstrumentID_get(swigCPtr, this);
+  public String getReserve2() {
+    return ThostTradeApiJNI.CThostFtdcInvestorPositionDetailField_reserve2_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
@@ -265,6 +265,22 @@ public class CThostFtdcInvestorPositionDetailField {
 
   public char getSpecPosiType() {
     return ThostTradeApiJNI.CThostFtdcInvestorPositionDetailField_SpecPosiType_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcInvestorPositionDetailField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcInvestorPositionDetailField_InstrumentID_get(swigCPtr, this);
+  }
+
+  public void setCombInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcInvestorPositionDetailField_CombInstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getCombInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcInvestorPositionDetailField_CombInstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcInvestorPositionDetailField() {

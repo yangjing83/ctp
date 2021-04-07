@@ -51,6 +51,30 @@ public class CThostFtdcUserIPField {
     return ThostTradeApiJNI.CThostFtdcUserIPField_UserID_get(swigCPtr, this);
   }
 
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcUserIPField_reserve1_set(swigCPtr, this, value);
+  }
+
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcUserIPField_reserve1_get(swigCPtr, this);
+  }
+
+  public void setReserve2(String value) {
+    ThostTradeApiJNI.CThostFtdcUserIPField_reserve2_set(swigCPtr, this, value);
+  }
+
+  public String getReserve2() {
+    return ThostTradeApiJNI.CThostFtdcUserIPField_reserve2_get(swigCPtr, this);
+  }
+
+  public void setMacAddress(String value) {
+    ThostTradeApiJNI.CThostFtdcUserIPField_MacAddress_set(swigCPtr, this, value);
+  }
+
+  public String getMacAddress() {
+    return ThostTradeApiJNI.CThostFtdcUserIPField_MacAddress_get(swigCPtr, this);
+  }
+
   public void setIPAddress(String value) {
     ThostTradeApiJNI.CThostFtdcUserIPField_IPAddress_set(swigCPtr, this, value);
   }
@@ -65,14 +89,6 @@ public class CThostFtdcUserIPField {
 
   public String getIPMask() {
     return ThostTradeApiJNI.CThostFtdcUserIPField_IPMask_get(swigCPtr, this);
-  }
-
-  public void setMacAddress(String value) {
-    ThostTradeApiJNI.CThostFtdcUserIPField_MacAddress_set(swigCPtr, this, value);
-  }
-
-  public String getMacAddress() {
-    return ThostTradeApiJNI.CThostFtdcUserIPField_MacAddress_get(swigCPtr, this);
   }
 
   public CThostFtdcUserIPField() {

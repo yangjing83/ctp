@@ -35,12 +35,12 @@ public class CThostFtdcSyncingInvestorPositionField {
     }
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcSyncingInvestorPositionField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcSyncingInvestorPositionField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcSyncingInvestorPositionField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcSyncingInvestorPositionField_reserve1_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
@@ -425,6 +425,14 @@ public class CThostFtdcSyncingInvestorPositionField {
 
   public double getTasPositionCost() {
     return ThostTradeApiJNI.CThostFtdcSyncingInvestorPositionField_TasPositionCost_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcSyncingInvestorPositionField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcSyncingInvestorPositionField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcSyncingInvestorPositionField() {

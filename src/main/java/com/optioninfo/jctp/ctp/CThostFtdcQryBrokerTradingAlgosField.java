@@ -51,6 +51,14 @@ public class CThostFtdcQryBrokerTradingAlgosField {
     return ThostTradeApiJNI.CThostFtdcQryBrokerTradingAlgosField_ExchangeID_get(swigCPtr, this);
   }
 
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcQryBrokerTradingAlgosField_reserve1_set(swigCPtr, this, value);
+  }
+
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcQryBrokerTradingAlgosField_reserve1_get(swigCPtr, this);
+  }
+
   public void setInstrumentID(String value) {
     ThostTradeApiJNI.CThostFtdcQryBrokerTradingAlgosField_InstrumentID_set(swigCPtr, this, value);
   }

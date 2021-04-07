@@ -51,6 +51,14 @@ public class CThostFtdcQryStrikeOffsetField {
     return ThostTradeApiJNI.CThostFtdcQryStrikeOffsetField_InvestorID_get(swigCPtr, this);
   }
 
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcQryStrikeOffsetField_reserve1_set(swigCPtr, this, value);
+  }
+
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcQryStrikeOffsetField_reserve1_get(swigCPtr, this);
+  }
+
   public void setInstrumentID(String value) {
     ThostTradeApiJNI.CThostFtdcQryStrikeOffsetField_InstrumentID_set(swigCPtr, this, value);
   }

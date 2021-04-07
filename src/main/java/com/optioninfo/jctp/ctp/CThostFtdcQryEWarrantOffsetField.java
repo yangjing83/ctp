@@ -59,12 +59,12 @@ public class CThostFtdcQryEWarrantOffsetField {
     return ThostTradeApiJNI.CThostFtdcQryEWarrantOffsetField_ExchangeID_get(swigCPtr, this);
   }
 
-  public void setInstrumentID(String value) {
-    ThostTradeApiJNI.CThostFtdcQryEWarrantOffsetField_InstrumentID_set(swigCPtr, this, value);
+  public void setReserve1(String value) {
+    ThostTradeApiJNI.CThostFtdcQryEWarrantOffsetField_reserve1_set(swigCPtr, this, value);
   }
 
-  public String getInstrumentID() {
-    return ThostTradeApiJNI.CThostFtdcQryEWarrantOffsetField_InstrumentID_get(swigCPtr, this);
+  public String getReserve1() {
+    return ThostTradeApiJNI.CThostFtdcQryEWarrantOffsetField_reserve1_get(swigCPtr, this);
   }
 
   public void setInvestUnitID(String value) {
@@ -73,6 +73,14 @@ public class CThostFtdcQryEWarrantOffsetField {
 
   public String getInvestUnitID() {
     return ThostTradeApiJNI.CThostFtdcQryEWarrantOffsetField_InvestUnitID_get(swigCPtr, this);
+  }
+
+  public void setInstrumentID(String value) {
+    ThostTradeApiJNI.CThostFtdcQryEWarrantOffsetField_InstrumentID_set(swigCPtr, this, value);
+  }
+
+  public String getInstrumentID() {
+    return ThostTradeApiJNI.CThostFtdcQryEWarrantOffsetField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryEWarrantOffsetField() {
