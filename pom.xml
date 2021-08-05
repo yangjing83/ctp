@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.optioninfo</groupId>
     <artifactId>jctp-api</artifactId>
-    <version>v6.5.1</version>
+    <version>v6.6.1</version>
     <packaging>jar</packaging>
 
     <properties>
