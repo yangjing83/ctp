@@ -9,6 +9,7 @@ public class TestApi {
         CThostFtdcMdSpi mdSpi = new CThostFtdcMdSpi();
 
         // 新的版本6.6.1
+        // 改动不是太大
 
         mdApi.RegisterSpi(mdSpi);
 
