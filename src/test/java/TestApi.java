@@ -8,6 +8,8 @@ public class TestApi {
         CThostFtdcMdApi mdApi = CThostFtdcMdApi.CreateFtdcMdApi(path);
         CThostFtdcMdSpi mdSpi = new CThostFtdcMdSpi();
 
+        // 新的版本6.6.1
+
         mdApi.RegisterSpi(mdSpi);
 
         System.out.println(mdApi.GetTradingDay());
