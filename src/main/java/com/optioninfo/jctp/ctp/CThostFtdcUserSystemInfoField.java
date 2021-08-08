@@ -107,6 +107,14 @@ public class CThostFtdcUserSystemInfoField {
     return ThostTradeApiJNI.CThostFtdcUserSystemInfoField_ClientPublicIP_get(swigCPtr, this);
   }
 
+  public void setClientLoginRemark(String value) {
+    ThostTradeApiJNI.CThostFtdcUserSystemInfoField_ClientLoginRemark_set(swigCPtr, this, value);
+  }
+
+  public String getClientLoginRemark() {
+    return ThostTradeApiJNI.CThostFtdcUserSystemInfoField_ClientLoginRemark_get(swigCPtr, this);
+  }
+
   public CThostFtdcUserSystemInfoField() {
     this(ThostTradeApiJNI.new_CThostFtdcUserSystemInfoField(), true);
   }

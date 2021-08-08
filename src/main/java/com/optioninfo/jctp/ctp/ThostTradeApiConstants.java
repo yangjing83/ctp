@@ -1262,4 +1262,13 @@ public interface ThostTradeApiConstants {
   public final static char THOST_FTDC_TD_ALL = ThostTradeApiJNI.THOST_FTDC_TD_ALL_get();
   public final static char THOST_FTDC_TD_TRADE = ThostTradeApiJNI.THOST_FTDC_TD_TRADE_get();
   public final static char THOST_FTDC_TD_UNTRADE = ThostTradeApiJNI.THOST_FTDC_TD_UNTRADE_get();
+  public final static char THOST_FTDC_PS_tradeable = ThostTradeApiJNI.THOST_FTDC_PS_tradeable_get();
+  public final static char THOST_FTDC_PS_untradeable = ThostTradeApiJNI.THOST_FTDC_PS_untradeable_get();
+  public final static char THOST_FTDC_SDS_Readable = ThostTradeApiJNI.THOST_FTDC_SDS_Readable_get();
+  public final static char THOST_FTDC_SDS_Reading = ThostTradeApiJNI.THOST_FTDC_SDS_Reading_get();
+  public final static char THOST_FTDC_SDS_Readend = ThostTradeApiJNI.THOST_FTDC_SDS_Readend_get();
+  public final static char THOST_FTDC_SDS_OptErr = ThostTradeApiJNI.THOST_FTDC_SDS_OptErr_get();
+  public final static char THOST_FTDC_ACD_Add = ThostTradeApiJNI.THOST_FTDC_ACD_Add_get();
+  public final static char THOST_FTDC_ACD_Del = ThostTradeApiJNI.THOST_FTDC_ACD_Del_get();
+  public final static char THOST_FTDC_ACD_Upd = ThostTradeApiJNI.THOST_FTDC_ACD_Upd_get();
 }

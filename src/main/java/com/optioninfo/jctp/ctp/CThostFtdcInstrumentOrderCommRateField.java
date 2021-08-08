@@ -115,6 +115,22 @@ public class CThostFtdcInstrumentOrderCommRateField {
     return ThostTradeApiJNI.CThostFtdcInstrumentOrderCommRateField_InstrumentID_get(swigCPtr, this);
   }
 
+  public void setOrderCommByTrade(double value) {
+    ThostTradeApiJNI.CThostFtdcInstrumentOrderCommRateField_OrderCommByTrade_set(swigCPtr, this, value);
+  }
+
+  public double getOrderCommByTrade() {
+    return ThostTradeApiJNI.CThostFtdcInstrumentOrderCommRateField_OrderCommByTrade_get(swigCPtr, this);
+  }
+
+  public void setOrderActionCommByTrade(double value) {
+    ThostTradeApiJNI.CThostFtdcInstrumentOrderCommRateField_OrderActionCommByTrade_set(swigCPtr, this, value);
+  }
+
+  public double getOrderActionCommByTrade() {
+    return ThostTradeApiJNI.CThostFtdcInstrumentOrderCommRateField_OrderActionCommByTrade_get(swigCPtr, this);
+  }
+
   public CThostFtdcInstrumentOrderCommRateField() {
     this(ThostTradeApiJNI.new_CThostFtdcInstrumentOrderCommRateField(), true);
   }

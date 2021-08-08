@@ -83,6 +83,22 @@ public class CThostFtdcSyncDepositField {
     return ThostTradeApiJNI.CThostFtdcSyncDepositField_CurrencyID_get(swigCPtr, this);
   }
 
+  public void setIsFromSopt(int value) {
+    ThostTradeApiJNI.CThostFtdcSyncDepositField_IsFromSopt_set(swigCPtr, this, value);
+  }
+
+  public int getIsFromSopt() {
+    return ThostTradeApiJNI.CThostFtdcSyncDepositField_IsFromSopt_get(swigCPtr, this);
+  }
+
+  public void setTradingPassword(String value) {
+    ThostTradeApiJNI.CThostFtdcSyncDepositField_TradingPassword_set(swigCPtr, this, value);
+  }
+
+  public String getTradingPassword() {
+    return ThostTradeApiJNI.CThostFtdcSyncDepositField_TradingPassword_get(swigCPtr, this);
+  }
+
   public CThostFtdcSyncDepositField() {
     this(ThostTradeApiJNI.new_CThostFtdcSyncDepositField(), true);
   }

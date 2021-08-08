@@ -558,6 +558,14 @@ public class CThostFtdcTraderSpi {
     if (getClass() == CThostFtdcTraderSpi.class) ThostTradeApiJNI.CThostFtdcTraderSpi_OnRspQryCombPromotionParam(swigCPtr, this, CThostFtdcCombPromotionParamField.getCPtr(pCombPromotionParam), pCombPromotionParam, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast); else ThostTradeApiJNI.CThostFtdcTraderSpi_OnRspQryCombPromotionParamSwigExplicitCThostFtdcTraderSpi(swigCPtr, this, CThostFtdcCombPromotionParamField.getCPtr(pCombPromotionParam), pCombPromotionParam, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
   }
 
+  public void OnRspQryRiskSettleInvstPosition(CThostFtdcRiskSettleInvstPositionField pRiskSettleInvstPosition, CThostFtdcRspInfoField pRspInfo, int nRequestID, boolean bIsLast) {
+    if (getClass() == CThostFtdcTraderSpi.class) ThostTradeApiJNI.CThostFtdcTraderSpi_OnRspQryRiskSettleInvstPosition(swigCPtr, this, CThostFtdcRiskSettleInvstPositionField.getCPtr(pRiskSettleInvstPosition), pRiskSettleInvstPosition, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast); else ThostTradeApiJNI.CThostFtdcTraderSpi_OnRspQryRiskSettleInvstPositionSwigExplicitCThostFtdcTraderSpi(swigCPtr, this, CThostFtdcRiskSettleInvstPositionField.getCPtr(pRiskSettleInvstPosition), pRiskSettleInvstPosition, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
+  }
+
+  public void OnRspQryRiskSettleProductStatus(CThostFtdcRiskSettleProductStatusField pRiskSettleProductStatus, CThostFtdcRspInfoField pRspInfo, int nRequestID, boolean bIsLast) {
+    if (getClass() == CThostFtdcTraderSpi.class) ThostTradeApiJNI.CThostFtdcTraderSpi_OnRspQryRiskSettleProductStatus(swigCPtr, this, CThostFtdcRiskSettleProductStatusField.getCPtr(pRiskSettleProductStatus), pRiskSettleProductStatus, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast); else ThostTradeApiJNI.CThostFtdcTraderSpi_OnRspQryRiskSettleProductStatusSwigExplicitCThostFtdcTraderSpi(swigCPtr, this, CThostFtdcRiskSettleProductStatusField.getCPtr(pRiskSettleProductStatus), pRiskSettleProductStatus, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
+  }
+
   public CThostFtdcTraderSpi() {
     this(ThostTradeApiJNI.new_CThostFtdcTraderSpi(), true);
     ThostTradeApiJNI.CThostFtdcTraderSpi_director_connect(this, swigCPtr, swigCMemOwn, true);

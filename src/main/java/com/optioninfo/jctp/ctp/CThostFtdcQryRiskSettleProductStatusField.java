@@ -8,16 +8,16 @@
 
 package com.optioninfo.jctp.ctp;
 
-public class CThostFtdcQryAuthForbiddenIPField {
+public class CThostFtdcQryRiskSettleProductStatusField {
   private transient long swigCPtr;
   protected transient boolean swigCMemOwn;
 
-  protected CThostFtdcQryAuthForbiddenIPField(long cPtr, boolean cMemoryOwn) {
+  protected CThostFtdcQryRiskSettleProductStatusField(long cPtr, boolean cMemoryOwn) {
     swigCMemOwn = cMemoryOwn;
     swigCPtr = cPtr;
   }
 
-  protected static long getCPtr(CThostFtdcQryAuthForbiddenIPField obj) {
+  protected static long getCPtr(CThostFtdcQryRiskSettleProductStatusField obj) {
     return (obj == null) ? 0 : obj.swigCPtr;
   }
 
@@ -29,22 +29,22 @@ public class CThostFtdcQryAuthForbiddenIPField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ThostTradeApiJNI.delete_CThostFtdcQryAuthForbiddenIPField(swigCPtr);
+        ThostTradeApiJNI.delete_CThostFtdcQryRiskSettleProductStatusField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
-  public void setIPAddress(String value) {
-    ThostTradeApiJNI.CThostFtdcQryAuthForbiddenIPField_IPAddress_set(swigCPtr, this, value);
+  public void setProductID(String value) {
+    ThostTradeApiJNI.CThostFtdcQryRiskSettleProductStatusField_ProductID_set(swigCPtr, this, value);
   }
 
-  public String getIPAddress() {
-    return ThostTradeApiJNI.CThostFtdcQryAuthForbiddenIPField_IPAddress_get(swigCPtr, this);
+  public String getProductID() {
+    return ThostTradeApiJNI.CThostFtdcQryRiskSettleProductStatusField_ProductID_get(swigCPtr, this);
   }
 
-  public CThostFtdcQryAuthForbiddenIPField() {
-    this(ThostTradeApiJNI.new_CThostFtdcQryAuthForbiddenIPField(), true);
+  public CThostFtdcQryRiskSettleProductStatusField() {
+    this(ThostTradeApiJNI.new_CThostFtdcQryRiskSettleProductStatusField(), true);
   }
 
 }

@@ -459,6 +459,14 @@ public class CThostFtdcQuoteField {
     return ThostTradeApiJNI.CThostFtdcQuoteField_IPAddress_get(swigCPtr, this);
   }
 
+  public void setReplaceSysID(String value) {
+    ThostTradeApiJNI.CThostFtdcQuoteField_ReplaceSysID_set(swigCPtr, this, value);
+  }
+
+  public String getReplaceSysID() {
+    return ThostTradeApiJNI.CThostFtdcQuoteField_ReplaceSysID_get(swigCPtr, this);
+  }
+
   public CThostFtdcQuoteField() {
     this(ThostTradeApiJNI.new_CThostFtdcQuoteField(), true);
   }

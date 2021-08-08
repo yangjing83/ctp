@@ -429,4 +429,12 @@ public class CThostFtdcTraderApi {
     return ThostTradeApiJNI.CThostFtdcTraderApi_ReqQryCombPromotionParam(swigCPtr, this, CThostFtdcQryCombPromotionParamField.getCPtr(pQryCombPromotionParam), pQryCombPromotionParam, nRequestID);
   }
 
+  public int ReqQryRiskSettleInvstPosition(CThostFtdcQryRiskSettleInvstPositionField pQryRiskSettleInvstPosition, int nRequestID) {
+    return ThostTradeApiJNI.CThostFtdcTraderApi_ReqQryRiskSettleInvstPosition(swigCPtr, this, CThostFtdcQryRiskSettleInvstPositionField.getCPtr(pQryRiskSettleInvstPosition), pQryRiskSettleInvstPosition, nRequestID);
+  }
+
+  public int ReqQryRiskSettleProductStatus(CThostFtdcQryRiskSettleProductStatusField pQryRiskSettleProductStatus, int nRequestID) {
+    return ThostTradeApiJNI.CThostFtdcTraderApi_ReqQryRiskSettleProductStatus(swigCPtr, this, CThostFtdcQryRiskSettleProductStatusField.getCPtr(pQryRiskSettleProductStatus), pQryRiskSettleProductStatus, nRequestID);
+  }
+
 }

@@ -403,6 +403,22 @@ public class CThostFtdcDepthMarketDataField {
     return ThostTradeApiJNI.CThostFtdcDepthMarketDataField_ExchangeInstID_get(swigCPtr, this);
   }
 
+  public void setBandingUpperPrice(double value) {
+    ThostTradeApiJNI.CThostFtdcDepthMarketDataField_BandingUpperPrice_set(swigCPtr, this, value);
+  }
+
+  public double getBandingUpperPrice() {
+    return ThostTradeApiJNI.CThostFtdcDepthMarketDataField_BandingUpperPrice_get(swigCPtr, this);
+  }
+
+  public void setBandingLowerPrice(double value) {
+    ThostTradeApiJNI.CThostFtdcDepthMarketDataField_BandingLowerPrice_set(swigCPtr, this, value);
+  }
+
+  public double getBandingLowerPrice() {
+    return ThostTradeApiJNI.CThostFtdcDepthMarketDataField_BandingLowerPrice_get(swigCPtr, this);
+  }
+
   public CThostFtdcDepthMarketDataField() {
     this(ThostTradeApiJNI.new_CThostFtdcDepthMarketDataField(), true);
   }
